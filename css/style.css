@@ -25,6 +25,7 @@ html{
     --text-blue: #07A5E4;
     --text-orange: #E59421;
     --text-grey: #4A4A4A;
+    --text-light-grey: #444444;
 }
 
 body {
@@ -150,12 +151,14 @@ li {
     background-color: var(--bg-grey);
     margin-top: 2rem;
     position: relative;
+    margin-bottom: 10rem;
 }
 
 .hero-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 5em 0;
+    padding-bottom: 80px;
 }
 
 .hero-wrapper .hero-content {
@@ -195,13 +198,59 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
     width: 65%;
     height: 100px;
     background-color: var(--bg-white);
+    border-radius: 8px;
+    padding: 0;
+    padding-left: 1.5em;
+    position: absolute;
+    left: 20%;
+    bottom: -10%;
+    box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.7);
+    -webkit-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.7);
+}
+
+.hero-footer-1 {
+    margin-right: 2em;
 }
 
 .hero-footer p {
     display: inline-block;
     font-size: 1.5rem;
+    color: var(--text-light-grey);
+}
+
+.hero-footer p span {
+    color: var(--text-black);
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.hero-footer-wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-footer-wrapper i {
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.hero-footer-6 {
+    background-color: var(--bg-light-blue);
+    height: 100%;
+    width: 300px;
+    border-radius: 0 8px 8px 0;
+    padding: 0 1.5em;
+}
+
+.hero-footer-6 p {
+    color: var(--text-white);
+    font-size: 2rem;
 }
