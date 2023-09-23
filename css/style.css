@@ -24,6 +24,7 @@ html{
     --text-black: #121212; 
     --text-blue: #07A5E4;
     --text-orange: #E59421;
+    --text-grey: #4A4A4A;
 }
 
 body {
@@ -125,12 +126,12 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
     font-size: 1.8rem;
 }
 
 .navbar-bottom-wrapper .end-content button {
-    border: none;
+    border: 1px solid var(--bg-white);
     background-color: var(--bg-light-blue);
     color: var(--text-white);
     padding: 0.6em 1em;
@@ -142,4 +143,65 @@ li {
     background-color: var(--bg-white);
     color: var(--text-blue);
     border: 1px solid var(--bg-light-blue);
+}
+
+/* hero section css  */
+.hero-section {
+    background-color: var(--bg-grey);
+    margin-top: 2rem;
+    position: relative;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em 0;
+}
+
+.hero-wrapper .hero-content {
+    margin-top: 40px;
+}
+
+.hero-wrapper .hero-content p:first-of-type{
+    font-size: 2.5rem;
+}
+
+.hero-wrapper .hero-content p:first-of-type span {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.hero-wrapper .hero-content h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-wrapper .hero-content p:last-of-type {
+    font-size: 1.8rem;
+    color: var(--text-grey);
+    line-height: 1.5;
+    margin-top: 1.5rem;
+}
+
+.hero-content img {
+    width: 160px;
+    margin-top: 15px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.hero-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    width: 65%;
+    height: 100px;
+    background-color: var(--bg-white);
+}
+
+.hero-footer p {
+    display: inline-block;
+    font-size: 1.5rem;
 }
