@@ -480,3 +480,62 @@ li {
 .section-5 .bg-content button svg {
     margin-bottom: 8px;
 }
+
+/* section-6 css  */
+.section-6 {
+    padding: 8em 0;
+}
+
+.section-6 .main-img img {
+    width: 500px;
+    margin-top: 80px;
+}
+
+.section-6 .main-content p.main-text {
+    font-size: 2rem;
+    color: var(--bg-blue);
+    font-weight: 500;
+}
+
+.section-6 .main-content h1 {
+    font-size: 4rem;
+}
+
+.section-6 .main-content h1 span {
+    color: var(--text-orange);
+}
+
+.section-6 .main-content p.sub-text {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: var(--text-grey);
+}
+
+.section-6 .sub-content .sub-content-text{
+    display: inline-block;
+}
+
+.section-6 .sub-content .sub-content-text h1 {
+    font-size: 2.5rem;
+}
+
+.section-6 .sub-content .sub-content-text p {
+    font-size: 1.5rem;
+    color: var(--text-grey);
+}
+
+.section-6 .sub-content .sub-content-wrapper {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section-6 .sub-content i {
+    color: var(--bg-light-blue);
+    border: 2px solid var(--bg-light-blue);
+    padding: 0.6em;
+    border-radius: 5px;
+    background-color: #DFF1FD;
+    margin-right: -10px;
+}
