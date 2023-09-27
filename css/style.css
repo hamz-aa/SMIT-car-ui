@@ -43,7 +43,7 @@ li {
 }
 
 button {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .dropdown-menu {
@@ -385,9 +385,11 @@ button {
     border-radius: 5px;
 }
 
-.section-3 .main-content button:hover,
-.section-3 .main-content button:hover p {
+.section-3 .main-content button:hover {
     background-color: var(--bg-light-blue);
+}
+
+.section-3 .main-content button:hover p{
     color: var(--text-white);
 }
 
@@ -465,9 +467,9 @@ button {
     margin-left: 35%;
 }
 
-.section-4 .main-content .card {
+/* .section-4 .main-content .card {
     height: 260px;
-}
+} */
 
 /* section-5 css  */
 .section-5 {
