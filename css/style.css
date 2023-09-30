@@ -101,14 +101,17 @@ button {
 
 /* bottom navbar css  */
 .navbar-bottom {
-    margin-top: 90px;
+    margin-top: 60px;
+}
+
+.navbar-bottom-wrapper button.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 .navbar-bottom-wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     margin-top: 25px;
 }
 
@@ -116,6 +119,7 @@ button {
     display: inline-block;
     color: var(--text-blue);
     font-size: 3.5rem;
+    margin-top: 0.3rem;
 }
 
 .navbar-bottom-wrapper .start-content i {
@@ -123,26 +127,22 @@ button {
     margin-right: 0.3em;
 }
 
-.navbar-bottom-wrapper .mid-content ul {
+.navbar-bottom-wrapper .mid-content {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 20px;
 }
 
-.navbar-bottom-wrapper .mid-content ul li {
-    margin-top: 1.5em;
+.navbar-bottom-wrapper .mid-content li {
+    font-size: 2rem;
 }
 
-.navbar-bottom-wrapper .mid-content ul li:hover {
+.navbar-bottom-wrapper .mid-content li:hover {
     cursor: pointer;
 }
 
-.navbar-bottom-wrapper .mid-content ul li svg {
-    margin-bottom: 0.6em;
-}
-
-.mid-content ul p {
+.mid-content p {
     display: inline-block;
     font-size: 1.8rem;
     margin-right: 0.3em;
@@ -154,10 +154,6 @@ button {
     justify-content: space-between;
     gap: 20px;
     font-size: 1.8rem;
-}
-
-.navbar-bottom-wrapper .end-content p:hover {
-    cursor: pointer;
 }
 
 .navbar-bottom-wrapper .end-content button {
