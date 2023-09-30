@@ -182,6 +182,7 @@ button {
 .hero-wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 5em 0;
     padding-bottom: 80px;
 }
