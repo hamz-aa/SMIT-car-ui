@@ -386,7 +386,8 @@ button {
     background-color: var(--bg-light-blue);
 }
 
-.section-3 .main-content button:hover p{
+.section-3 .main-content button:hover p,
+.section-3 .main-content button:hover svg{
     color: var(--text-white);
 }
 
