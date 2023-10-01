@@ -437,6 +437,10 @@ button {
     margin-right: 20px;
 }
 
+.section-4 .main-text button svg{
+    margin-bottom: 6px;
+}
+
 .section-4 .main-text .btn-wrapper {
     padding-left: 25%;
 }

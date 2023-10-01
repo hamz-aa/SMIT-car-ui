@@ -1,47 +1,116 @@
-
-@media (max-width: 576px) {
-    html {
-        font-size: 50%;
-    }
-
+@media (max-width: 1200px) {
     /* hero css  */
-    .hero-wrapper {
-        padding: 5em 0;
+    .hero-footer p,
+    .hero-footer p span {
+        font-size: 1.38rem;
     }
 
-    .hero-wrapper .hero-content {
-        padding: 0 2.5rem;
+    /* section-2 css  */
+    .section-2 .sub-heading {
+        font-size: 4.5rem;
     }
 
-    .hero-wrapper .hero-content img {
-        width: 120px;
+    .section-2 .row p.sub-text {
+        font-size: 2.2rem;
     }
 
-    .hero-wrapper .hero-image img {
-        width: 300px;
-        margin-top: 15px;
+    /* section-4 css  */
+    .section-4 .main-text .btn-wrapper {
+        padding-left: 20%;
+    }
+
+    .section-4 .main-content .card {
+        margin-top: 1rem;
+    }
+
+    /* section-6 css  */
+    .section-6 .main-img img {
+        width: 400px;
+        margin-top: 200px;
+    }
+
+    .section-6 .main-content i {
+        font-size: 3rem;
+    }
+
+    /* section-7 css  */
+    .section-7 .main-text .btn-wrapper {
+        padding-left: 0;
+    }
+
+    /* section-10 css  */
+    .section-10 .main-img {
+        right: 10%;
+    }
+
+}
+
+@media (max-width: 992px) {
+    /* hero css  */
+    .hero-wrapper .hero-content,
+    .hero-wrapper .hero-image {
+        margin: auto;
+    }
+
+    .hero-footer {
+        width: 75%;
+        bottom: -6%;
+        left: 12%;
+    }
+
+    /* section-2 css  */
+    .section-2 .content-3 h1.sub-heading{
+        margin-left: 10px;
     }
 
     /* section-3 css  */
-    .section-3 .main-content .img-wrapper {
-        margin-right: 100px;
+    .section-3 .main-content button {
+        margin-left: 30%;
     }
-    .section-3 .main-content .row img {
-        width: 200px;
+
+    .section-3 .main-content {
+        padding: 0 5em;
+    }
+
+    /* section-4 css  */
+    .section-4 .main-content img {
+        width: 250px;
+        margin-left: 5em;
+        margin-top: 1em;
+    }
+
+    .section-4 .main-text .btn-wrapper button {
+        padding: 0 0.8em;
+    }
+
+    .section-4 .main-text .btn-wrapper button p{
+        font-size: 1.5rem;
+    }
+
+    .section-4 .section-4-wrapper .main-text .btn-wrapper {
+        padding-left: 14%;
+    }
+
+    .section-4 .main-content a {
+        margin-left: 37%;
+    }
+
+    /* section-6 css  */
+    .section-6 .main-img,
+    .section-6 .main-content {
+        width: 100%;
+    }
+
+    .section-6 .main-img img {
+        width: 600px;
         margin: 0;
+        padding: 0;
+        margin-left: 8%;
+        margin-bottom: 50px;
     }
 
-    .section-3 .main-content h1 {
-        margin-top: -30px;
-    }
-
-    .section-3 .main-content p {
-        margin-bottom: 15px;
-    }
-    
-    .section-3 .main-content .btn-wrapper {
-        margin-top: 30px;
-        padding-right: 50%;
+    .section-6 .sub-content .sub-content-wrapper {
+        gap: 18px;
     }
 }
 
@@ -89,79 +158,112 @@
     .section-3 .main-content .btn-wrapper button {
         width: 200px;
     }
-}
-
-@media (max-width: 992px) {
-    /* hero css  */
-    .hero-wrapper .hero-content,
-    .hero-wrapper .hero-image {
-        margin: auto;
-    }
-
-    .hero-footer {
-        width: 75%;
-        bottom: -6%;
-        left: 12%;
-    }
-
-    /* section-2 css  */
-    .section-2 .content-3 h1.sub-heading{
-        margin-left: 10px;
-    }
-
-    /* section-3 css  */
-    .section-3 .main-content button {
-        margin-left: 30%;
-    }
-
-    .section-3 .main-content {
-        padding: 0 5em;
-    }
-}
-
-@media (max-width: 1200px) {
-    /* hero css  */
-    .hero-footer p,
-    .hero-footer p span {
-        font-size: 1.38rem;
-    }
-
-    /* section-2 css  */
-    .section-2 .sub-heading {
-        font-size: 4.5rem;
-    }
-
-    .section-2 .row p.sub-text {
-        font-size: 2.2rem;
-    }
 
     /* section-4 css  */
-    .section-4 .main-text .btn-wrapper {
-        padding-left: 20%;
+    .section-4 .section-4-wrapper .main-text .btn-wrapper {
+        padding-left: 5%;
+        text-align: center;
+    }
+
+    .section-4 .main-text .btn-wrapper button p {
+        margin: 0.3em 0.2em;
     }
 
     .section-4 .main-content .card {
-        margin-top: 1rem;
+        width: 60%;
+        margin: 10px auto;
+    }
+
+    .section-4 .main-content .card img {
+        padding-right: 20px;
+    }
+
+    /* section-6 css  */
+    .section-6 .main-img img  {
+        width: 500px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 50%;
+    }
+
+    /* hero css  */
+    .hero-wrapper {
+        padding: 5em 0;
+    }
+
+    .hero-wrapper .hero-content {
+        padding: 0 2.5rem;
+    }
+
+    .hero-wrapper .hero-content img {
+        width: 120px;
+    }
+
+    .hero-wrapper .hero-image img {
+        width: 300px;
+        margin-top: 15px;
+    }
+
+    /* section-3 css  */
+    .section-3 .main-content .img-wrapper {
+        margin-right: 100px;
+    }
+    .section-3 .main-content .row img {
+        width: 200px;
+        margin: 0;
+    }
+
+    .section-3 .main-content h1 {
+        margin-top: -30px;
+    }
+
+    .section-3 .main-content p {
+        margin-bottom: 15px;
+    }
+    
+    .section-3 .main-content .btn-wrapper {
+        margin-top: 30px;
+        padding-right: 50%;
+    }
+
+    /* section-4 css  */
+    .section-4 .main-text .btn-wrapper button {
+        margin-top: 6px;
+    }
+
+    .section-4 .main-text .btn-wrapper button svg {
+        width: 12px;
+    }
+
+    .section-4 .main-content .card img {
+        width: 180px;
+        padding: 0;
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .section-4 .main-content a {
+        margin-left: 33%;
     }
 
     /* section-6 css  */
     .section-6 .main-img img {
-        width: 400px;
-        margin-top: 200px;
+        width: 340px;
     }
 
     .section-6 .main-content i {
-        font-size: 3rem;
+        font-size: 2rem;
+        margin: 0;
+        margin-left: 5px;
     }
 
-    /* section-7 css  */
-    .section-7 .main-text .btn-wrapper {
-        padding-left: 0;
+    .section-6 .sub-content .sub-content-wrapper {
+        gap: 10px;
     }
-
-    /* section-10 css  */
-    .section-10 .main-img {
-        right: 10%;
-    }
-
 }
+
